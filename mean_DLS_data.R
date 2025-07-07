@@ -86,7 +86,7 @@ crear_grafico_promedio_dls <- function(datos_combinados,
 
   # Agregar línea promedio
   p <- p + geom_line(color = "red", size = 1.2) +
-    geom_point(color = "red", size = 0.8) +
+    geom_point(color = "red", linewidth = 0.8) +
     labs(
       title = titulo,
       subtitle = paste("Promedio de", max(datos_promedio$n_corridas), "corridas"),
