@@ -85,7 +85,7 @@ crear_grafico_promedio_dls <- function(datos_combinados,
   }
 
   # Agregar línea promedio
-  p <- p + geom_line(color = "red", size = 1.2) +
+  p <- p + geom_line(color = "red", linewidth = 1.2) +
     geom_point(color = "red", size = 0.8) +
     labs(
       title = titulo,
